@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "AirPulseAi" },
+      { name: "description", content: "Flight Guardian Angel provides real-time flight delay alerts and proactive disruption management for any airline." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "AirPulseAi" },
+      { property: "og:description", content: "Flight Guardian Angel provides real-time flight delay alerts and proactive disruption management for any airline." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "AirPulseAi" },
+      { name: "twitter:description", content: "Flight Guardian Angel provides real-time flight delay alerts and proactive disruption management for any airline." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a945dfd5-416d-47b0-9c44-04caf70dbcd1/id-preview-a02fa8d9--18d167ce-89fd-4523-8383-bd428716b668.lovable.app-1780311189293.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a945dfd5-416d-47b0-9c44-04caf70dbcd1/id-preview-a02fa8d9--18d167ce-89fd-4523-8383-bd428716b668.lovable.app-1780311189293.png" },
     ],
     links: [
       {
